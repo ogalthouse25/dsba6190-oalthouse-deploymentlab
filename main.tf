@@ -77,7 +77,7 @@ resource "azurerm_storage_account" "example" {
 }
 
 resource "azurerm_mssql_server" "sql" {
-  name                         = "sql-dsba6190-ogalt-dev-001"
+  name                         = "sql-dsba6190-ogalt-dev-002"
   resource_group_name          = azurerm_resource_group.rg.name
   location                     = azurerm_resource_group.rg.location
   version                      = "12.0"
