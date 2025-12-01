@@ -48,7 +48,7 @@ resource "azurerm_subnet" "subnet" {
 }
 
 resource "azurerm_mssql_server" "sql" {
-  name                         = "sql-dsba6190-ogalt-dev-003"
+  name                         = "sql-dsba6190-ogalt-dev-004"
   resource_group_name          = azurerm_resource_group.rg.name
   location                     = azurerm_resource_group.rg.location
   version                      = "12.0"
