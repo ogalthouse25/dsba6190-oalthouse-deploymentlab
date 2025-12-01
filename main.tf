@@ -48,7 +48,7 @@ resource "azurerm_subnet" "subnet" {
 }
 
 resource "azurerm_mssql_server" "sql" {
-  name                         = "sql-dsba6190-ogalt-dev-004"
+  name                         = "sql-dsba6190-ogalt-dev-005"
   resource_group_name          = azurerm_resource_group.rg.name
   location                     = azurerm_resource_group.rg.location
   version                      = "12.0"
@@ -80,7 +80,7 @@ resource "azurerm_mssql_virtual_network_rule" "vn" {
 }
 
 resource "azurerm_storage_account" "sto" {
-  name                = "stodsba6190ogaltdev001"
+  name                = "stodsba6190ogaltdev002"
   resource_group_name = azurerm_resource_group.rg.name
 
   location                 = azurerm_resource_group.rg.location
